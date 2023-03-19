@@ -1,0 +1,18 @@
+#--------------PLUGIN INFORMATION'S--------------
+
+#Permet de définir le nom du Plugin
+name: CommandsTemplate
+
+#Permet de définir la version du Plugin
+version: 1.0
+
+#Permet de définir la version de l'API
+api: 4.0.0
+
+#Permet de situer le répértoire où se trouve la class Main
+main: CommandsTemplate\Main
+
+#--------------OWNER INFORMATION'S--------------
+
+author: Taruno
+github: TarunoDev
