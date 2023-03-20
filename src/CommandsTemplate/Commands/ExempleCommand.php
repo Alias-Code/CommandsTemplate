@@ -39,7 +39,7 @@ class ExempleCommand extends Command {
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
 
         /*
-         * Permet de vérifier si celui qui effectue la commande est une instance de Player
+         * Permet de vérifier si celui qui effectue la commande est une instance de la class Player
          *
          * Si il ne l'est pas, la commande sera arrêté, permet d'éviter que la Console effectue la commande
          */

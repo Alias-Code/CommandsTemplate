@@ -14,7 +14,7 @@ use pocketmine\utils\SingletonTrait;
  * Création d'une class Main, celle-ci :
  *
  * Hérite des fonctionnalités de la class PluginBase, permettant d'accéder aux fonctions du fichier, exemple : onEnable(...)
- * Implemente la Class Listener, utilisé lorsque l'on souhaite utiliser un evenement
+ * Implemente la class Listener, présente lorsque l'on souhaite utiliser un évènement
  */
 class Main extends PluginBase implements Listener {
 
@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener {
      *
      * D'enregister tout les evenements présent dans la class Main
      * D'annoncer le fait que le plugin s'est bien lancé
-     * D'appeler la fonction registerCommands()
+     * D'appeler la fonction registerCommands(...)
      *
      */
     public function onEnable(): void {
